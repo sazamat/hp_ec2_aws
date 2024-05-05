@@ -1,0 +1,68 @@
+body{
+    background-color: aliceblue;
+}
+.about-section{
+    background: url('../img/Harry_Potter.jpeg') no-repeat left;
+    background-size: 55%;
+    margin-left: 1.1em;
+    overflow: hidden;
+    padding: 100px 0;
+    border-radius: 20%;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: rgb(185, 191, 197);
+    padding: 150px;
+    border-radius: 10%;
+    margin-right: 2em;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text-parag{
+    font-size: 1.2em;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 17px;
+    font-style: italic;
+}
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+        background: none;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}
