@@ -30,7 +30,7 @@
 
  
 
-<h1 class="headerH1">Contact</h1>
+<h1 class="headerH1">Contact us</h1>
 
   <div class="contact-form">
         <h1>Contact us</h1>
