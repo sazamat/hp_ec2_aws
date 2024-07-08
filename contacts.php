@@ -33,7 +33,7 @@
 <h1 class="headerH1">Contact us</h1>
 
   <div class="contact-form">
-        <h1>Contact us</h1>
+        <h1> </h1>
     </div>
     <div class="contact-us">
        <form action="save.php" method="post">
