@@ -15,7 +15,7 @@ if (mysqli_connect_errno()) {
 
 $sql = "INSERT INTO newsletter(email) VALUES ('{$email}' )";
 $result = mysqli_query($conn, $sql) or die("Query Failed!");
-header("location: http://16.171.193.196//contacts.php");
+header("location: http://16.171.193.196/contacts.php");
 mysqli_close($conn);
 
 echo "Record saved.";
